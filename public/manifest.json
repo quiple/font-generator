@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "quiple.dev",
+  "short_name": "quiple",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A website of quiple."
+}

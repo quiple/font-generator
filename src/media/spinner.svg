@@ -1,0 +1,28 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .spinner {
+      transform-origin: center;
+      animation: spin .75s step-end infinite;
+    }
+    @keyframes spin {
+      12.5% { transform: rotate(45deg); }
+      25% { transform: rotate(90deg); }
+      37.5% { transform: rotate(135deg); }
+      50% { transform: rotate(180deg); }
+      62.5% { transform: rotate(225deg); }
+      75% { transform: rotate(270deg); }
+      87.5% { transform: rotate(315deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <g class="spinner" stroke-width="3" stroke-linecap="round">
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".8" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".7" transform="rotate(-45 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".6" transform="rotate(-90 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".5" transform="rotate(-135 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".4" transform="rotate(180 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".3" transform="rotate(135 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".2" transform="rotate(90 12 12)" />
+    <line x1="12" y1="2" x2="12" y2="6" opacity=".1" transform="rotate(45 12 12)" />
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+@charset 'utf-8';
+
+#preview:not(.hidden) + .canvas-placeholder {
+  display: none;
+}
