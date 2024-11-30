@@ -46,7 +46,7 @@
     "lint-staged": "^15.2.10",
     "postcss": "^8.4.47",
     "prism-themes": "^1.9.0",
-    "qr-code-styling": "1.7.2",
+    "qr-code-styling": "1.8.4",
     "qwik-blurhash": "^0.0.4",
     "refractor": "^4.8.1",
     "sass": "^1.79.5",
