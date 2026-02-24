@@ -126,6 +126,7 @@ const fontSize: fontSize = {
   'hbios-sys': 13,
   unifont: 14,
   unifont_jp: 14,
+  maruminyahangul: 12,
   zpix: 9,
 }
 
@@ -159,6 +160,7 @@ const fontUrl: fontUrl = {
   'hbios-sys': 'gh/quiple/hbios-sys/hbios-sys.bdf',
   unifont: 'gh/quiple/fonts/unifont/unifont.bdf',
   unifont_jp: 'gh/quiple/fonts/unifont/unifont_jp.bdf',
+  maruminyahangul: 'gh/quiple/x12y12pxMaruMinyaHangul/fonts/x12y12pxMaruMinyaHangul.bdf',
   zpix: 'gh/SolidZORO/zpix-pixel-font/dist/zpix.bdf',
 }
 
@@ -413,6 +415,7 @@ export default component$(() => {
                     <option value="hbios-sys" label="HBIOS-SYS (16px)" />
                     <option value="unifont" label="Unifont (16px)" />
                     <option value="unifont_jp" label="Unifont JP (16px)" />
+                    <option value="maruminyahangul" label="MaruMinyaHangul (12px)" />
                     <option value="zpix" label="Zpix (12px)" />
                   </optgroup>
                   {/* <option value="custom">사용자 지정 폰트 업로드</option> */}
